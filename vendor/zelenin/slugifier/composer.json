@@ -1,0 +1,30 @@
+{
+    "name": "zelenin/slugifier",
+    "description": "Slug generation library",
+    "keywords": [
+        "slug"
+    ],
+    "homepage": "https://github.com/zelenin/slugifier",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Zelenin",
+            "email": "aleksandr@zelenin.me",
+            "homepage": "http://zelenin.me",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zelenin/slugifier/issues",
+        "source": "https://github.com/zelenin/slugifier"
+    },
+    "require": {
+        "php": ">=5.4",
+        "ext-intl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zelenin\\Slugifier\\": ""
+        }
+    }
+}
