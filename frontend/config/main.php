@@ -37,7 +37,7 @@ return [
             'showScriptName' => false,
             'rules' => [
                 '/' => 'site/index',
-                'thumbs/<path:.*>' => 'frontend/thumb',
+                'thumbs/<path:.*>' => 'site/thumb',
                 [
                     'pattern' => '<slug:[\w\-]+>',
                     'route' => 'page/view',
@@ -47,6 +47,11 @@ return [
                     'pattern' => 'review/<slug:[\w\-]+>',
                     'route' => 'review-category/view',
                     'suffix' => ''
+                ],
+                [
+                    'pattern' => 'review/<slug:[\w\-]+>',
+                    'route' => 'review/view',
+                    'suffix' => '.html'
                 ],
                 [
                     'pattern' => '<cslug:[\w\-]+>/<pslug:[\w\-]+>',
@@ -63,9 +68,7 @@ return [
             'thumbsUrl' => '@web/thumbs',
             'sizes' => [
                 'post' => [280, 140],
-                'fpartner' => [135,48],
-                'product_detail' => [300,200],
-                'docquyen' => [262,227]
+                'review' => [265, 165],
             ],
         ],
     ],

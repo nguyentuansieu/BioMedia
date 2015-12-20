@@ -28,3 +28,4 @@ $("#slideshow").responsiveSlides({
 ';
 $this->registerJs($js, 3);
 ?>
+<?=\common\onecms\FrontReviewWidget::widget(); ?>
