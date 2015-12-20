@@ -36,8 +36,9 @@ use yii\helpers\Html;
                                                 </div>
                                                 <div class="item-info">
                                                     <div class="info-inner">
-                                                        <div class="item-title"><a href="#"
-                                                                                   title="Odio in pretium feugiat">Kinh nghiệm lựa chọn máy Realtime PCR ở Việt Nam</a></div>
+                                                        <div class="item-title">
+                                                            <?=Html::a($node->title, ['review/view', 'slug' => $node->slug], ['class' => 'thumb flip']); ?>
+                                                            </div>
                                                         <div class="item-content">
                                                             <div class="rating">
                                                                 <div class="ratings">

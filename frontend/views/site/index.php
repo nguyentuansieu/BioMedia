@@ -29,3 +29,15 @@ $("#slideshow").responsiveSlides({
 $this->registerJs($js, 3);
 ?>
 <?=\common\onecms\FrontReviewWidget::widget(); ?>
+<section class="featured-pro wow bounceInUp animated">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <?=\common\onecms\FrontVideoWidget::widget(); ?>
+        </div>
+        <div class="col-lg-4">
+            sss
+        </div>
+    </div>
+</div>
+</section>

@@ -69,6 +69,8 @@ return [
             'sizes' => [
                 'post' => [280, 140],
                 'review' => [265, 165],
+                'videoHot' => [285, 155],
+                'videoHotChild' => [120, 80],
             ],
         ],
     ],
