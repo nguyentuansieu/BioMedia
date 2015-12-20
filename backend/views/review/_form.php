@@ -15,7 +15,9 @@ use mihaildev\ckeditor\CKEditor;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'category_id')->dropDownList($treeParents) ?>
+    <?= $form->field($model, 'category_id')->widget(\yii2mod\selectize\Selectize::className(), [
+        'items' => $treeParents,
+    ]) ?>
 
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
 

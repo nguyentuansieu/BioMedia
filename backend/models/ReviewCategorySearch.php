@@ -76,6 +76,8 @@ class ReviewCategorySearch extends ReviewCategory
             ->andFilterWhere(['like', 'meta_keywords', $this->meta_keywords])
             ->andFilterWhere(['like', 'meta_description', $this->meta_description]);
 
+        $query->addOrderBy(['tree' => SORT_ASC])
+            ->addOrderBy(['lft' => SORT_ASC]);
         return $dataProvider;
     }
 }

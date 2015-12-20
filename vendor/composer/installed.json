@@ -1736,5 +1736,44 @@
             "nested sets",
             "yii2"
         ]
+    },
+    {
+        "name": "yii2mod/yii2-selectize",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yii2mod/yii2-selectize.git",
+            "reference": "ba0f3d71fa7b4809a935da7bc056d2561c74a355"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yii2mod/yii2-selectize/zipball/ba0f3d71fa7b4809a935da7bc056d2561c74a355",
+            "reference": "ba0f3d71fa7b4809a935da7bc056d2561c74a355",
+            "shasum": ""
+        },
+        "time": "2015-06-17 09:40:58",
+        "type": "yii2-extension",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "yii2mod\\selectize\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Igor Chepurnoy",
+                "email": "igorzfort@gmail.com"
+            }
+        ],
+        "description": "selectize.js wrapper for yii2",
+        "keywords": [
+            "module",
+            "yii2"
+        ]
     }
 ]

@@ -25,7 +25,8 @@
         "sieulog/yii2-imagecache": "dev-master",
 		"sieulog/yii2-nested-sets":"dev-master",
         "zelenin/yii2-slug-behavior": "^1.0",
-        "kartik-v/yii2-date-range": "^1.6"
+        "kartik-v/yii2-date-range": "^1.6",
+        "yii2mod/yii2-selectize": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

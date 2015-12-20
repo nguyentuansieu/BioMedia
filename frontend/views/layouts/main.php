@@ -144,49 +144,7 @@ AppAsset::register($this);
         </div>
     </div>
 </header>
-<nav>
-    <div class="container">
-        <div class="row">
-            <div class="nav-inner">
-                <?php $categories = NavWidget::build(); ?>
-                <ul id="nav" class="hidden-xs">
-                    <li id="nav-home" class="level0 parent drop-menu"><?=HTML::a('<span>Trang chủ</span>', '/'); ?></li>
-                    <?php foreach($categories as $category): ?>
-                            <li class="level0 nav-7 level-top parent">
-                                <?=HTML::a('<span>'.$category->title.'</span>', ['reviewcategory/view', 'slug' => $category->slug], ['class' => 'level-top']); ?>
-                                <?php $categoriesLevel1 = NavWidget::build($category->id, 1); ?>
-                                <?php if($categoriesLevel1): ?>
-                                    <div class="level0-wrapper dropdown-6col">
-                                        <div class="level0-wrapper2">
-                                            <div class="nav-block nav-block-center grid13 itemgrid itemgrid-4col">
-                                                <ul class="level0">
-                                                    <?php foreach($categoriesLevel1 as $category): ?>
-                                                        <li class="level1 nav-6-1 parent item">
-                                                        <?=HTML::a('<span>'.$category->title.'</span>', ['reviewcategory/view', 'slug' => $category->slug]); ?>
-                                                        <?php $categoriesLevel2 = NavWidget::build($category->id, 2); ?>
-                                                        <?php if($categoriesLevel2): ?>
-                                                            <ul class="level1">
-                                                            <?php foreach($categoriesLevel1 as $category): ?>
-                                                                <li class="level2 nav-6-1-1">
-                                                                    <?=HTML::a('<span>'.$category->title.'</span>', ['reviewcategory/view', 'slug' => $category->slug]); ?>
-                                                                </li>
-                                                            <?php endforeach; ?>
-                                                            </ul>
-                                                        <?php endif; ?>
-                                                        </li>
-                                                    <?php endforeach; ?>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <?php endif; ?>
-                            </li>
-                    <?php endforeach; ?>
-                </ul>
-            </div>
-        </div>
-    </div>
-</nav>
+<?=NavWidget::widget(); ?>
 
 <?= $content ?>
 

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "99961ed97db2c20605d70b685abe385e",
-    "content-hash": "62e19893f1a735ffc7f85fd40b6dfa9e",
+    "hash": "97a2bfc85e15271f5add0e93734446fc",
+    "content-hash": "fe9d1ba283d103b06f097fbc72c1a7af",
     "packages": [
         {
             "name": "bower-asset/admin-lte",
@@ -899,6 +899,43 @@
             "time": "2015-06-06 14:19:39"
         },
         {
+            "name": "yii2mod/yii2-selectize",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-selectize.git",
+                "reference": "ba0f3d71fa7b4809a935da7bc056d2561c74a355"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-selectize/zipball/ba0f3d71fa7b4809a935da7bc056d2561c74a355",
+                "reference": "ba0f3d71fa7b4809a935da7bc056d2561c74a355",
+                "shasum": ""
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\selectize\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Chepurnoy",
+                    "email": "igorzfort@gmail.com"
+                }
+            ],
+            "description": "selectize.js wrapper for yii2",
+            "keywords": [
+                "module",
+                "yii2"
+            ],
+            "time": "2015-06-17 09:40:58"
+        },
+        {
             "name": "yiisoft/yii2",
             "version": "2.0.6",
             "source": {
@@ -1681,7 +1718,8 @@
     "stability-flags": {
         "sieulog/yii2-adminlte": 20,
         "sieulog/yii2-imagecache": 20,
-        "sieulog/yii2-nested-sets": 20
+        "sieulog/yii2-nested-sets": 20,
+        "yii2mod/yii2-selectize": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
