@@ -33,24 +33,50 @@ AppAsset::register($this);
                 <div class="row">
                     <div class="col-sm-4 col-xs-7">
                         <!-- Header Language -->
-                        <div class="dropdown block-language-wrapper"><a role="button" data-toggle="dropdown"
-                                                                        data-target="#"
-                                                                        class="block-language dropdown-toggle" href="#">
-                                <img src="images/vietnam.png" alt="language"> Tiếng Việt <span class="caret"></span>
-                            </a>
+                        <div class="dropdown block-language-wrapper">
+                            <?=Html::a(Html::img('/images/vietnam.png') .' Tiếng Việt <span class="caret"></span>', '#', [
+                                'class' => 'block-language dropdown-toggle',
+                                'data-toggle' => 'dropdown',
+                                'data-target' => '#',
+                                'role' => 'button',
+                            ]); ?>
                             <ul class="dropdown-menu" role="menu">
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img
-                                            src="images/vietnam.png" alt="language"> Tiếng việt </a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img
-                                            src="images/english.png" alt="language"> English </a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img
-                                            src="images/francais.png" alt="language"> French </a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img
-                                            src="images/german.png" alt="language"> German </a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img
-                                            src="images/spanish.png" alt="language"> Spanish </a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img
-                                            src="images/swedish.png" alt="language"> Swedish </a></li>
+                                <li role="presentation">
+                                    <?=Html::a(Html::img('/images/vietnam.png') .' Tiếng Việt', '#', [
+                                        'tabindex' => '-1',
+                                        'role' => 'menuitem',
+                                    ]); ?>
+                                </li>
+                                <li role="presentation">
+                                    <?=Html::a(Html::img('/images/english.png') .' English', '#', [
+                                        'tabindex' => '-1',
+                                        'role' => 'menuitem',
+                                    ]); ?>
+                                </li>
+                                <li role="presentation">
+                                    <?=Html::a(Html::img('/images/francais.png') .' French', '#', [
+                                        'tabindex' => '-1',
+                                        'role' => 'menuitem',
+                                    ]); ?>
+                                </li>
+                                <li role="presentation">
+                                    <?=Html::a(Html::img('/images/german.png') .' German', '#', [
+                                        'tabindex' => '-1',
+                                        'role' => 'menuitem',
+                                    ]); ?>
+                                </li>
+                                <li role="presentation">
+                                    <?=Html::a(Html::img('/images/spanish.png') .' Spanish', '#', [
+                                        'tabindex' => '-1',
+                                        'role' => 'menuitem',
+                                    ]); ?>
+                                </li>
+                                <li role="presentation">
+                                    <?=Html::a(Html::img('/images/menuitem.png') .' Swedish', '#', [
+                                        'tabindex' => '-1',
+                                        'role' => 'menuitem',
+                                    ]); ?>
+                                </li>
                             </ul>
                         </div>
                         <div class="welcome-msg hidden-xs">Welcome to Bio Media</div>
@@ -79,7 +105,7 @@ AppAsset::register($this);
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-xs-12">
                     <div class="logo">
-                        <?= HTML::a(HTML::img('images/logo.png', ['class' => 'img-responsive']), '/'); ?>
+                        <?= HTML::a(HTML::img('/images/logo.png', ['class' => 'img-responsive']), '/'); ?>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -155,17 +181,17 @@ AppAsset::register($this);
             <div class="slider-items-products">
                 <div id="brand-logo-slider" class="product-flexslider hidden-buttons">
                     <div class="slider-items slider-width-col6">
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/1.gif'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/1.png'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/2.png'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/3.png'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/4.png'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/5.png'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/6.png'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/7.png'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/8.png'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/9.png'), '#'); ?></div>
-                        <div class="item"><?= HTML::a(HTML::img('uploads/logo-partner/10.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/1.gif'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/1.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/2.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/3.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/4.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/5.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/6.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/7.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/8.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/9.png'), '#'); ?></div>
+                        <div class="item"><?= HTML::a(HTML::img('/uploads/logo-partner/10.png'), '#'); ?></div>
                     </div>
                 </div>
             </div>
@@ -211,8 +237,9 @@ AppAsset::register($this);
             <div class="row">
                 <div class="col-md-3 col-sm-12 col-xs-12 col-lg-3">
                     <div class="footer-column-1 pull-left">
-                        <div class="footer-logo"><a href="#" title="Logo"><img src="images/footer-logo.png"
-                                                                               alt="footer logo"></a></div>
+                        <div class="footer-logo">
+                            <?= HTML::a(HTML::img('/images/footer-logo.png', ['class' => 'img-responsive']), '/'); ?>
+                        </div>
                         <p>Công ty truyền thông uy tín trong lĩnh vực Công nghệ sinh học - Xét nghiệm y tế - Thực phẩm -
                             Dược phẩm - Hóa học - Môi trường…</p>
 

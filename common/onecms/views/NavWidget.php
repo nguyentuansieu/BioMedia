@@ -29,7 +29,7 @@ use yii\helpers\Html;
                             endfor;
                         endif;
                         echo '<li class="level0 nav-7 level-top parent">';
-                        echo Html::a('<span>'.$category->title.'</span>', ['reviewcategory/view', 'slug' => $category->slug]);
+                        echo Html::a('<span>'.$category->title.'</span>', ['review-category/view', 'slug' => $category->slug]);
                         $depth = $category->depth;
                     endforeach;
                     for($i = $depth; $i; $i--):

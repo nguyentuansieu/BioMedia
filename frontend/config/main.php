@@ -44,8 +44,8 @@ return [
                     'suffix' => '.html',
                 ],
                 [
-                    'pattern' => '<slug:[\w\-]+>',
-                    'route' => 'category/view',
+                    'pattern' => 'review/<slug:[\w\-]+>',
+                    'route' => 'review-category/view',
                     'suffix' => ''
                 ],
                 [

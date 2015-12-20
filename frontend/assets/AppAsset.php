@@ -23,6 +23,7 @@ class AppAsset extends AssetBundle
         'css/owl.carousel.css',
         'css/owl.theme.css',
         'css/animate.css',
+        'css/responsiveslides.css',
         'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,800,400,600',
         'css/site.css',
     ];
@@ -31,6 +32,7 @@ class AppAsset extends AssetBundle
         'js/revslider.js',
         'js/owl.carousel.min.js',
         'js/parallax.js',
+        'js/responsiveslides.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
