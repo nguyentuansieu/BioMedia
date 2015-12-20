@@ -1214,50 +1214,6 @@
         ]
     },
     {
-        "name": "sieulog/yii2-adminlte",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sieulog/yii2-adminlte.git",
-            "reference": "67f702f8d55b4cfd2b6b80b94be4fb126666e819"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sieulog/yii2-adminlte/zipball/67f702f8d55b4cfd2b6b80b94be4fb126666e819",
-            "reference": "67f702f8d55b4cfd2b6b80b94be4fb126666e819",
-            "shasum": ""
-        },
-        "require": {
-            "bower-asset/admin-lte": "^2.3",
-            "bower-asset/fontawesome": "^4.4",
-            "bower-asset/ionicons": "^2.0",
-            "bower-asset/jquery": "^2.1",
-            "yiisoft/yii2": "*"
-        },
-        "time": "2015-11-21 08:25:12",
-        "type": "library",
-        "extra": {
-            "asset-installer-paths": {
-                "npm-asset-library": "vendor/npm",
-                "bower-asset-library": "vendor/bower"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "sieulog\\adminlte\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "authors": [
-            {
-                "name": "Nguyen Tuan Sieu",
-                "email": "tuan@sieulog.com"
-            }
-        ]
-    },
-    {
         "name": "imagine/imagine",
         "version": "v0.5.0",
         "version_normalized": "0.5.0.0",
@@ -1358,99 +1314,6 @@
             "helper",
             "image",
             "imagine",
-            "yii2"
-        ]
-    },
-    {
-        "name": "sieulog/yii2-imagecache",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sieulog/yii2-imagecache.git",
-            "reference": "622abb0ec1345c285726ef7390d82f78c145932a"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sieulog/yii2-imagecache/zipball/622abb0ec1345c285726ef7390d82f78c145932a",
-            "reference": "622abb0ec1345c285726ef7390d82f78c145932a",
-            "shasum": ""
-        },
-        "require": {
-            "yiisoft/yii2-imagine": "*"
-        },
-        "time": "2015-11-23 19:20:04",
-        "type": "yii2-extension",
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "iutbay\\yii2imagecache\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "authors": [
-            {
-                "name": "Kevin LEVRON",
-                "email": "kevin.levron@gmail.com"
-            },
-            {
-                "name": "Nguyen Tuan Sieu",
-                "email": "nguyentuansieu@gmail.com"
-            }
-        ],
-        "description": "ImageCache for Yii2",
-        "homepage": "https://github.com/sieulog/yii2-imagecache",
-        "keywords": [
-            "cache",
-            "image",
-            "resize",
-            "thumb",
-            "yii2"
-        ]
-    },
-    {
-        "name": "sieulog/yii2-nested-sets",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sieulog/yii2-nested-sets.git",
-            "reference": "08c1b3ad3054d0c1b1d44b2802d86d7312fd910c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sieulog/yii2-nested-sets/zipball/08c1b3ad3054d0c1b1d44b2802d86d7312fd910c",
-            "reference": "08c1b3ad3054d0c1b1d44b2802d86d7312fd910c",
-            "shasum": ""
-        },
-        "require": {
-            "yiisoft/yii2": "~2.0.0"
-        },
-        "require-dev": {
-            "phpunit/dbunit": "~1.0",
-            "phpunit/phpunit": "~4.0"
-        },
-        "time": "2015-11-30 11:55:50",
-        "type": "yii2-extension",
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "creocoder\\nestedsets\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Alexander Kochetov",
-                "email": "creocoder@gmail.com"
-            }
-        ],
-        "description": "The nested sets behavior for the Yii framework",
-        "keywords": [
-            "nested sets",
             "yii2"
         ]
     },
@@ -1734,6 +1597,143 @@
             "range",
             "time",
             "widget",
+            "yii2"
+        ]
+    },
+    {
+        "name": "sieulog/yii2-adminlte",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sieulog/yii2-adminlte.git",
+            "reference": "67f702f8d55b4cfd2b6b80b94be4fb126666e819"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sieulog/yii2-adminlte/zipball/67f702f8d55b4cfd2b6b80b94be4fb126666e819",
+            "reference": "67f702f8d55b4cfd2b6b80b94be4fb126666e819",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/admin-lte": "^2.3",
+            "bower-asset/fontawesome": "^4.4",
+            "bower-asset/ionicons": "^2.0",
+            "bower-asset/jquery": "^2.1",
+            "yiisoft/yii2": "*"
+        },
+        "time": "2015-11-21 08:25:12",
+        "type": "library",
+        "extra": {
+            "asset-installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "sieulog\\adminlte\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Nguyen Tuan Sieu",
+                "email": "tuan@sieulog.com"
+            }
+        ]
+    },
+    {
+        "name": "sieulog/yii2-imagecache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sieulog/yii2-imagecache.git",
+            "reference": "622abb0ec1345c285726ef7390d82f78c145932a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sieulog/yii2-imagecache/zipball/622abb0ec1345c285726ef7390d82f78c145932a",
+            "reference": "622abb0ec1345c285726ef7390d82f78c145932a",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2-imagine": "*"
+        },
+        "time": "2015-11-23 19:20:04",
+        "type": "yii2-extension",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "iutbay\\yii2imagecache\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Kevin LEVRON",
+                "email": "kevin.levron@gmail.com"
+            },
+            {
+                "name": "Nguyen Tuan Sieu",
+                "email": "nguyentuansieu@gmail.com"
+            }
+        ],
+        "description": "ImageCache for Yii2",
+        "homepage": "https://github.com/sieulog/yii2-imagecache",
+        "keywords": [
+            "cache",
+            "image",
+            "resize",
+            "thumb",
+            "yii2"
+        ]
+    },
+    {
+        "name": "sieulog/yii2-nested-sets",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sieulog/yii2-nested-sets.git",
+            "reference": "08c1b3ad3054d0c1b1d44b2802d86d7312fd910c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sieulog/yii2-nested-sets/zipball/08c1b3ad3054d0c1b1d44b2802d86d7312fd910c",
+            "reference": "08c1b3ad3054d0c1b1d44b2802d86d7312fd910c",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "~2.0.0"
+        },
+        "require-dev": {
+            "phpunit/dbunit": "~1.0",
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2015-11-30 11:55:50",
+        "type": "yii2-extension",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "creocoder\\nestedsets\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Alexander Kochetov",
+                "email": "creocoder@gmail.com"
+            }
+        ],
+        "description": "The nested sets behavior for the Yii framework",
+        "keywords": [
+            "nested sets",
             "yii2"
         ]
     }
