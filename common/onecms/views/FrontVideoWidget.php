@@ -3,7 +3,7 @@ use yii\helpers\Html;
 
 ?>
 <div class="panel panel-success">
-    <div class="panel-heading"><strong>Video nổi bật</strong></div>
+    <div class="panel-heading"><i class="fa fa-youtube-play"></i> <strong>Video nổi bật</strong></div>
     <div class="panel-body">
         <div class="row">
             <div class="col-lg-5">
@@ -17,7 +17,7 @@ use yii\helpers\Html;
                             ]); ?>
                         </div>
                     </div>
-                    <h2><?=Html::a($node->title, ['video/view', 'slug' => $node->slug]); ?></h2>
+                    <h4><?=Html::a($node->title, ['video/view', 'slug' => $node->slug]); ?></h4>
                 </div>
                 <?php endforeach; ?>
             </div>

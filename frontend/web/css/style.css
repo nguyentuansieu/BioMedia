@@ -9598,6 +9598,11 @@ address {
 .list-events .media-heading a {
     font-weight: bold;
 }
+
+.list-events .media-left a {
+    width: 120px;
+    display: block;
+}
 /*30.	Responsive   */
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {

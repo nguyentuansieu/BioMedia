@@ -156,4 +156,13 @@ return array (
       '@yii2mod/selectize' => $vendorDir . '/yii2mod/yii2-selectize',
     ),
   ),
+  '2amigos/yii2-date-time-picker-widget' => 
+  array (
+    'name' => '2amigos/yii2-date-time-picker-widget',
+    'version' => '1.0.2.0',
+    'alias' => 
+    array (
+      '@dosamigos/datetimepicker' => $vendorDir . '/2amigos/yii2-date-time-picker-widget/src',
+    ),
+  ),
 );

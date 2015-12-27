@@ -244,10 +244,12 @@ AppAsset::register($this);
                             Dược phẩm - Hóa học - Môi trường…</p>
 
                         <div class="payment-accept">
-                            <div><img class="first" src="images/payment-1.png" alt="payment-1"> <img
-                                    src="images/payment-2.png" alt="payment-2"> <img src="images/payment-3.png"
-                                                                                     alt="payment-3"> <img
-                                    src="images/payment-4.png" alt="payment-4"></div>
+                            <div>
+                                <?=Html::img('/images/payment-1.png', ['class' => 'first']); ?>
+                                <?=Html::img('/images/payment-2.png'); ?>
+                                <?=Html::img('/images/payment-3.png'); ?>
+                                <?=Html::img('/images/payment-4.png', ['class' => 'last']); ?>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ use yii\widgets\ActiveForm;
 use mihaildev\elfinder\InputFile;
 use mihaildev\elfinder\ElFinder;
 use mihaildev\ckeditor\CKEditor;
+use dosamigos\datetimepicker\DateTimePicker;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Event */
@@ -32,9 +33,35 @@ use mihaildev\ckeditor\CKEditor;
         'multiple'      => false
     ]) ?>
 
-    <?= $form->field($model, 'start_date')->textInput() ?>
+    <?= $form->field($model, 'start_date')->widget(DateTimePicker::className(), [
+        'language' => 'vn',
+        'size' => 'ms',
+        'template' => '{input}',
+        'pickButtonIcon' => 'glyphicon glyphicon-time',
+        'inline' => false,
+        'clientOptions' => [
+            'minView' => 0,
+            'maxView' => 1,
+            'autoclose' => true,
+            'format' => 'dd-mm-yyyy HH:ii P',
+            'todayBtn' => true
+        ]
+    ]) ?>
 
-    <?= $form->field($model, 'end_date')->textInput() ?>
+    <?= $form->field($model, 'end_date')->widget(DateTimePicker::className(), [
+        'language' => 'vn',
+        'size' => 'ms',
+        'template' => '{input}',
+        'pickButtonIcon' => 'glyphicon glyphicon-time',
+        'inline' => false,
+        'clientOptions' => [
+            'minView' => 0,
+            'maxView' => 1,
+            'autoclose' => true,
+            'format' => 'dd-mm-yyyy HH:ii P',
+            'todayBtn' => true
+        ]
+    ]) ?>
 
     <?= $form->field($model, 'location')->textInput(['maxlength' => true]) ?>
 

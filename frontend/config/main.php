@@ -39,11 +39,6 @@ return [
                 '/' => 'site/index',
                 'thumbs/<path:.*>' => 'site/thumb',
                 [
-                    'pattern' => '<slug:[\w\-]+>',
-                    'route' => 'page/view',
-                    'suffix' => '.html',
-                ],
-                [
                     'pattern' => 'review/<slug:[\w\-]+>',
                     'route' => 'review-category/view',
                     'suffix' => ''
@@ -54,9 +49,49 @@ return [
                     'suffix' => '.html'
                 ],
                 [
-                    'pattern' => '<cslug:[\w\-]+>/<pslug:[\w\-]+>',
+                    'pattern' => 'event/<slug:[\w\-]+>',
+                    'route' => 'event-category/view',
+                    'suffix' => ''
+                ],
+                [
+                    'pattern' => 'event/<slug:[\w\-]+>',
+                    'route' => 'event/view',
+                    'suffix' => '.html'
+                ],
+                [
+                    'pattern' => 'video/<slug:[\w\-]+>',
+                    'route' => 'video-category/view',
+                    'suffix' => ''
+                ],
+                [
+                    'pattern' => 'video/<slug:[\w\-]+>',
+                    'route' => 'video/view',
+                    'suffix' => '.html'
+                ],
+                [
+                    'pattern' => 'product/<slug:[\w\-]+>',
+                    'route' => 'product-category/view',
+                    'suffix' => ''
+                ],
+                [
+                    'pattern' => 'product/<slug:[\w\-]+>',
+                    'route' => 'product/view',
+                    'suffix' => '.html'
+                ],
+                [
+                    'pattern' => '<slug:[\w\-]+>',
+                    'route' => 'post-category/view',
+                    'suffix' => ''
+                ],
+                [
+                    'pattern' => 'post/<slug:[\w\-]+>',
                     'route' => 'post/view',
                     'suffix' => '.html'
+                ],
+                [
+                    'pattern' => '<slug:[\w\-]+>',
+                    'route' => 'page/view',
+                    'suffix' => '.html',
                 ],
             ],
         ],
@@ -71,6 +106,11 @@ return [
                 'review' => [265, 165],
                 'videoHot' => [285, 155],
                 'videoHotChild' => [120, 80],
+                '350x120' => [350, 120],
+                '120x80' => [120, 80],
+                '165x120' => [165, 120],
+                '600x400' => [600, 400],
+                '280x150' => [280, 150],
             ],
         ],
     ],

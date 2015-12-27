@@ -25,7 +25,7 @@ class NavWidget extends Widget
     public static function build()
     {
         $categoriesModel = new ReviewCategory();
-        $categoriesData = $categoriesModel->find()->addOrderBy(['tree' => SORT_ASC])->addOrderBy(['lft' => SORT_ASC])->all();
+        $categoriesData = $categoriesModel->find()->where(['status' => 10])->addOrderBy(['tree' => SORT_ASC])->addOrderBy(['lft' => SORT_ASC])->all();
 
         return $categoriesData;
     }

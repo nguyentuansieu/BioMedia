@@ -67,11 +67,12 @@ class Event extends \yii\db\ActiveRecord
     {
         return [
             [['category_id', 'title'], 'required'],
-            [['category_id', 'start_date', 'end_date', 'status', 'created_by', 'updated_by', 'created_at', 'updated_at'], 'integer'],
+            [['category_id', 'status', 'created_by', 'updated_by', 'created_at', 'updated_at'], 'integer'],
             [['content'], 'string'],
             [['title', 'slug', 'image', 'location', 'meta_keywords'], 'string', 'max' => 255],
             [['meta_title'], 'string', 'max' => 70],
-            [['meta_description'], 'string', 'max' => 160]
+            [['meta_description'], 'string', 'max' => 160],
+            [['start_date', 'end_date'], 'date', 'format' => 'php:d-m-Y H:i A'],
         ];
     }
 
@@ -108,5 +109,15 @@ class Event extends \yii\db\ActiveRecord
     public static function find()
     {
         return new EventQuery(get_called_class());
+    }
+
+    public function beforeSave($insert) {
+        if(parent::beforeSave($insert)) {
+            $this->start_date = \DateTime::createFromFormat('d-m-Y H:i A', $this->start_date)->format('Y-m-d H:i:s');
+            $this->end_date = \DateTime::createFromFormat('d-m-Y H:i A', $this->end_date)->format('Y-m-d H:i:s');
+            return true;
+        } else {
+            return false;
+        }
     }
 }
