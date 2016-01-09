@@ -132,7 +132,7 @@ return array (
   'kartik-v/yii2-krajee-base' => 
   array (
     'name' => 'kartik-v/yii2-krajee-base',
-    'version' => '1.8.0.0',
+    'version' => '1.8.1.0',
     'alias' => 
     array (
       '@kartik/base' => $vendorDir . '/kartik-v/yii2-krajee-base',
@@ -163,6 +163,15 @@ return array (
     'alias' => 
     array (
       '@dosamigos/datetimepicker' => $vendorDir . '/2amigos/yii2-date-time-picker-widget/src',
+    ),
+  ),
+  'trntv/yii2-glide' => 
+  array (
+    'name' => 'trntv/yii2-glide',
+    'version' => '1.0.1.0',
+    'alias' => 
+    array (
+      '@trntv/glide' => $vendorDir . '/trntv/yii2-glide/src',
     ),
   ),
 );

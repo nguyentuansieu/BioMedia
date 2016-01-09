@@ -49,6 +49,16 @@ return [
                     'suffix' => '.html'
                 ],
                 [
+                    'pattern' => 'catalogue/<slug:[\w\-]+>',
+                    'route' => 'catalogue-category/view',
+                    'suffix' => ''
+                ],
+                [
+                    'pattern' => 'catalogue/<slug:[\w\-]+>',
+                    'route' => 'catalogue/view',
+                    'suffix' => '.html'
+                ],
+                [
                     'pattern' => 'event/<slug:[\w\-]+>',
                     'route' => 'event-category/view',
                     'suffix' => ''

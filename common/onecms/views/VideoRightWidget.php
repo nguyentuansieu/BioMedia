@@ -5,10 +5,10 @@
             <?php foreach($nodes as $node): ?>
             <div class="media">
                 <div class="media-left">
-                    <?=\yii\helpers\Html::a(Yii::$app->imageCache->thumb($node->image, '120x80', ['class'=>'img-responsive']), ['event/view', 'slug' => $node->slug]);?>
+                    <?=\yii\helpers\Html::a(Yii::$app->imageCache->thumb($node->image, '120x80', ['class'=>'img-responsive']), ['video/view', 'slug' => $node->slug]);?>
                 </div>
                 <div class="media-body">
-                    <h5 class="media-heading"><?=\yii\helpers\Html::a($node->title, ['event/view', 'slug' => $node->slug]);?></h5>
+                    <h5 class="media-heading"><?=\yii\helpers\Html::a($node->title, ['video/view', 'slug' => $node->slug]);?></h5>
                 </div>
             </div>
             <?php endforeach; ?>

@@ -26,7 +26,6 @@ class NavWidget extends Widget
     {
         $categoriesModel = new ReviewCategory();
         $categoriesData = $categoriesModel->find()->where(['status' => 10])->addOrderBy(['tree' => SORT_ASC])->addOrderBy(['lft' => SORT_ASC])->all();
-
         return $categoriesData;
     }
 }

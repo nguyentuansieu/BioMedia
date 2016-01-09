@@ -51,9 +51,8 @@ $this->registerJs($js, 3);
                 <?= \common\onecms\FrontProductWidget::widget(); ?>
             </div>
             <div class="col-md-6">
-                <?= \common\onecms\FrontCatalogueWidget::widget(); ?>
+                <?= \common\onecms\FrontPostWidget::widget(); ?>
             </div>
         </div>
     </div>
 </section>
-<?= \common\onecms\FrontPostWidget::widget(); ?>

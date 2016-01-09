@@ -2,8 +2,7 @@
 /* @var $this yii\web\View */
 $this->title = $title;
 ?>
-<?=\common\onecms\AdsTopCenterWidget::widget(); ?>
-<?=\common\onecms\ReviewCategoryWidget::widget(['root' => $root]); ?>
+<p>&nbsp;</p>
 <div class="container">
     <div class="row">
         <div class="col-lg-8">
@@ -37,22 +36,11 @@ $this->title = $title;
             <?= \common\onecms\AdsRightTopWidget::widget(); ?>
             <?= \common\onecms\EventRightWidget::widget(); ?>
             <?= \common\onecms\VideoRightWidget::widget(); ?>
+            <?= \common\onecms\PostBottomTopWidget::widget(); ?>
+            <?= \common\onecms\ProductBottomTopWidget::widget(); ?>
         </div>
     </div>
 </div>
 <?= \common\onecms\AdsMiddleCenterWidget::widget(); ?>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4">
-            <?= \common\onecms\ProductBottomTopWidget::widget(); ?>
-        </div>
-        <div class="col-lg-4">
-            <?= \common\onecms\CatalogueBottomTopWidget::widget(); ?>
-        </div>
-        <div class="col-lg-4">
-            <?= \common\onecms\PostBottomTopWidget::widget(); ?>
-        </div>
-    </div>
-</div>
 
 

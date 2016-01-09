@@ -24,7 +24,7 @@ class ReviewCategoryController extends \yii\web\Controller
         $count = $nodesModel->count();
         $pagination = new Pagination(['totalCount' => $count]);
         $nodes = $nodesModel->offset($pagination->offset)
-            ->limit(5)
+            ->limit(10)
             ->orderBy(['id' => SORT_DESC])
             ->all();
         return $this->render('view', [

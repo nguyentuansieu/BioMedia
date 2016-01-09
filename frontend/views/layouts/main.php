@@ -72,7 +72,7 @@ AppAsset::register($this);
                                     ]); ?>
                                 </li>
                                 <li role="presentation">
-                                    <?=Html::a(Html::img('/images/menuitem.png') .' Swedish', '#', [
+                                    <?=Html::a(Html::img('/images/swedish.png') .' Swedish', '#', [
                                         'tabindex' => '-1',
                                         'role' => 'menuitem',
                                     ]); ?>
@@ -324,6 +324,7 @@ AppAsset::register($this);
     </div>
 </footer>
 <!-- End Footer -->
+<div id="fb-root"></div>
 <?php
 $js = '
 jQuery(document).ready(function () {
@@ -396,6 +397,21 @@ jQuery(document).ready(function () {
             fullScreenOffsetContainer: \'\'
         });
     });
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=1105169119509249";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, \'script\', \'facebook-jssdk\'));
+
+    window.___gcfg = {lang: \'vi\'};
+
+    (function() {
+        var po = document.createElement(\'script\'); po.type = \'text/javascript\'; po.async = true;
+        po.src = \'https://apis.google.com/js/platform.js\';
+        var s = document.getElementsByTagName(\'script\')[0]; s.parentNode.insertBefore(po, s);
+    })();
     ';
 $this->registerJs($js, 3);
 ?>

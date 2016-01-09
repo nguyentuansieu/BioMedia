@@ -120,3 +120,34 @@ a.desc:after {
 .review-lists h5.media-heading {
     font-weight: 600;
 }
+
+h2.node-title {
+    font:700 24px/23px "Times New Roman";
+    color:#004175;
+}
+
+.biomedia {
+    background: -webkit-linear-gradient(#0084ff, #006fff);
+    background: linear-gradient(#0084ff, #006fff);
+    text-shadow: 0 -1px 0 #005ecf;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0;
+    text-shadow: 0 -1px 0 #354c8c;
+    white-space: nowrap;
+    padding: 2px 3px;
+    display: inline;
+    float: left;
+    margin-right: 5px;
+}
+
+.node-share {margin-top: 5px;margin-bottom: 5px;padding-top: 5px; padding-bottom: 5px;border-top: 1px solid #d1d1d1;border-bottom: 1px solid #d1d1d1;}
+.noleft {
+    padding-left: 0;
+}
+.noright {
+    padding-right: 0;
+}

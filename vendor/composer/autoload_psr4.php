@@ -28,6 +28,6 @@ return array(
     'creocoder\\nestedsets\\' => array($vendorDir . '/sieulog/yii2-nested-sets/src'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
     'Zelenin\\yii\\behaviors\\' => array($vendorDir . '/zelenin/yii2-slug-behavior'),
-    'Zelenin\\Slugifier\\' => array($vendorDir . '/zelenin/slugifier'),
+    'Zelenin\\Ddd\\String\\' => array($vendorDir . '/zelenin/string'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
 );

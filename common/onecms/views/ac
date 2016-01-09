@@ -1,0 +1,74 @@
+<li class="level0 nav-7 level-top parent"><a href="/review/cong-nghe-sinh-hoc"><span>Công nghệ sinh học</span></a>
+    <div class="level0-wrapper dropdown-6col">
+        <div class="level0-wrapper2">
+            <div class="nav-block nav-block-center grid13 itemgrid itemgrid-4col">
+                <ul class="level0">
+                    <li class="level0 nav-7 level-top parent"><a
+                            href="/review/sinh-hoc-phan-tu"><span>Sinh học phân tử</span></a>
+                        <ul class="level1">
+                            <li class="level0 nav-7 level-top parent"><a href="/review/pcr-realtime-pcr"><span>PCR & Realtime PCR</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a href="/review/giai-trinh-tu-dna-protein"><span>Giải trình tự DNA/Protein</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a
+                                    href="/review/tach-chiet-tinh-sach-dna-proteinm"><span>Tách chiết, tinh sạch DNA/proteinm</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a
+                                    href="/review/dien-di-va-cac-ky-thuat-khac"><span>Điện di và các kỹ thuật khác</span></a>
+                        </ul>
+                    </li>
+                    <li class="level0 nav-7 level-top parent"><a href="/review/mien-dich-te-bao"><span>Miễn dịch & Tế bào</span></a>
+                        <ul class="level1">
+                            <li class="level0 nav-7 level-top parent"><a href="/review/mien-dich"><span>Miễn dịch</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a href="/review/thu-tinh-ong-nghiem"><span>Thụ tinh ống nghiệm</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a
+                                    href="/review/te-bao-goc-te-bao-dong-vat"><span>Tế bào gốc/ tế bào động vật</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a href="/review/te-bao-ung-thu"><span>Tế bào ung thư</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a href="/review/te-bao-thuc-vat"><span>Tế bào thực vật</span></a>
+                        </ul>
+                    </li>
+                    <li class="level0 nav-7 level-top parent"><a
+                            href="/review/enzyme-protein"><span>Enzyme & Protein</span></a>
+                        <ul class="level1">
+                            <li class="level0 nav-7 level-top parent"><a href="/review/enzyme"><span>Enzyme</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a href="/review/protein-proteomics"><span>Protein/ Proteomics</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a href="/review/cac-ky-thuat-truyen-thong"><span>Các kỹ thuật truyền thống</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a href="/review/cac-huong-nghien-cuu-moi"><span>Các hướng nghiên cứu mới</span></a>
+                        </ul>
+                    </li>
+                    <li class="level0 nav-7 level-top parent"><a href="/review/cong-nghe-vi-sinh"><span>Công nghệ vi sinh</span></a>
+                        <ul class="level1">
+                            <li class="level0 nav-7 level-top parent"><a
+                                    href="/review/cong-nghe-vi-sinh-truyen-thong"><span>Công nghệ vi sinh truyền thống</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a
+                                    href="/review/cong-nghe-vi-sinh-hien-dai"><span>Công nghệ vi sinh hiện đại</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a href="/review/vi-sinh-thuc-pham"><span>Vi sinh thực phẩm</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a
+                                    href="/review/vi-sinh-moi-truong-nong-nghiep"><span>Vi sinh môi trường/nông nghiệp</span></a>
+                        </ul>
+                    </li>
+                    <li class="level0 nav-7 level-top parent"><a href="/review/cac-huong-nghien-cuu-khac"><span>Các hướng nghiên cứu khác</span></a>
+                        <ul class="level1">
+                            <li class="level0 nav-7 level-top parent"><a
+                                    href="/review/tin-sinh-hoc"><span>Tin sinh học</span></a></li>
+                            <li class="level0 nav-7 level-top parent"><a
+                                    href="/review/cong-nghe-sinh-hoc-cong-nghiep"><span>Công nghệ sinh học công nghiệp</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a
+                                    href="/review/cong-nghe-sinh-hoc-duoc-pham"><span>Công nghệ sinh học dược phẩm</span></a>
+                            </li>
+                            <li class="level0 nav-7 level-top parent"><a href="/review/giai-nobel-hang-nam"><span>Giải Nobel hàng năm</span></a>
+                        </ul>
+                    </li>
+                </ul>
+</li>
